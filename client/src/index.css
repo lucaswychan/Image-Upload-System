@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  /* Full height */
+  font-family: Calibri;
+  margin: auto;
+
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  background: url("../public/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+ul {
+  text-align: left;
+  display: inline-block;
+}
+
+h1,
+#root {
+  text-align: center;
+  color: rgb(35, 34, 34);
+}
