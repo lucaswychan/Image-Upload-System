@@ -11,6 +11,9 @@
   <a href="https://nodejs.org/en">
     <img src="https://img.shields.io/badge/Node.js-green?style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS">
   </a>
+  <a href="https://www.mongodb.com/">
+    <img src="https://img.shields.io/badge/MongoDB-0A3C27?style=for-the-badge&logo=mongodb" alt="MongoDB">
+  </a>
 </div>
 
 # Image-Upload-System
