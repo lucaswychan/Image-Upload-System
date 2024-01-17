@@ -16,7 +16,7 @@
   </a>
 </div>
 
-# Image-Upload-System
+# Image Upload System
 Using React.js and Node.js to implement an image upload system.
 
 Perform checking for the images
@@ -25,9 +25,13 @@ Perform checking for the images
   <li>Background needs to be transparent</li>
   <li>Must be in PNG format</li>
 </ul> 
-Once checking is done, upload the images to MongoDB 
+Once checking is done, upload the images to MongoDB with parameters 1) _id 2) name 3) array [dimension height, dimension width]
+
+
 
 ## Run Code
-1. `npm install`
-2. `cd server`
-3. `node index.js`
+```
+$ npm install
+$ cd server
+$ node index.js
+```
