@@ -30,6 +30,15 @@ Once checking is done, upload the images to MongoDB with parameters 1) _id 2) na
 
 
 ## Run Code
+create file `.env` in the root directory to store your environment variables by copying the structure below
+```
+PORT=
+
+#DB
+DB_USER=
+DB_PASSWORD=
+```
+then run the commands below
 ```
 $ npm install
 $ cd server
