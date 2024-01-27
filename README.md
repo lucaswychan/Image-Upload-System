@@ -1,9 +1,4 @@
 <div align="center">
-  <a href="https://www.linkedin.com/in/lucas-chan-578039267">
-    <img src="https://img.shields.io/badge/LINKEDIN-Lucas_Chan-blue?logo=linkedin" alt="LinkedIn">
-  </a>
-  
-  <p></p>
   
   <a href="https://jquery.com">
     <img src="https://img.shields.io/badge/React-0769AD?style=for-the-badge&logo=react&logoColor=sky" alt="ReactJS">
@@ -30,7 +25,7 @@ Once checking is done, upload the images to MongoDB with parameters 1) _id 2) na
 
 
 ## Run Code
-create file `.env` in the root directory to store your environment variables by copying the structure below
+1. create file `.env` in the root directory to store your environment variables by copying the structure below
 ```
 PORT=
 
@@ -38,9 +33,16 @@ PORT=
 DB_USER=
 DB_PASSWORD=
 ```
-then run the commands below
+2. run the commands below
 ```
 $ npm install
 $ cd server
+$ node index.js
+```
+3. open another terminal and run the commands below
+```
+$ cd client
+$ npm install
+$ cd src
 $ node index.js
 ```
